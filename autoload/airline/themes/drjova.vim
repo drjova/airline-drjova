@@ -38,14 +38,15 @@ let g:airline#themes#drjova#palette.replace_modified = g:airline#themes#drjova#p
 
 " Set paste color
 let g:airline#themes#drjova#palette.insert_paste = {
-      \ 'airline_a': [ s:I1[0] , '#d78700' , s:I1[2] , 172 , '' ],
-      \ }
+    \ 'airline_a': [ s:I1[0] , '#d78700' , s:I1[2] , 172 , '' ],
+    \ }
 
 " Inactive mode
-let s:IN1 = [ '#9e9e9e' , '#606060' , 247 , 241 ]
-let s:IN2 = [ '#ffffff' , '#121212' , 15  , 233 ]
+"let s:IN1 = [ '#9e9e9e' , '#606060' , 247 , 241 ]
+"let s:IN2 = [ '#ffffff' , '#121212' , 15  , 233 ]
 
-let s:IA = [ s:IN1[1] , s:IN2[1] , s:IN1[3] , s:IN2[3] , '' ]
+let s:IA = [ '#ffffff' , '#444444' , 15  , 238 ]
+"let s:IA = [ s:IN1[1] , s:IN2[1] , s:IN1[3] , s:IN2[3] , '' ]
 let g:airline#themes#drjova#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 
 " CtrlP
