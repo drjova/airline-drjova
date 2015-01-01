@@ -4,7 +4,7 @@ let s:N2 = [ '#ffffff' , '#808080' , 15  , 244 ]
 let s:N3 = [ '#000000' , '#bcbcbc' , 232 , 250 ]
 
 " Insert mode
-let s:I1 = [ '#ffffff' , '#00afff' , 16  , 39  ]
+let s:I1 = [ '#ffffff' , '#00afff' , 15  , 39  ]
 let s:I2 = [ '#ffffff' , '#808080' , 15  , 244 ]
 let s:I3 = [ '#000000' , '#bcbcbc' , 232 , 250 ]
 
